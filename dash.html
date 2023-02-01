@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dash.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#" class="logo">
+          <img src="./images/user.png">
+          <span class="nav-item">Admin</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-menorah"></i>
+          <span class="nav-item">Dashboard</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-wallet"></i>
+          <span class="nav-item">Wallet</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-chart-bar"></i>
+          <span class="nav-item">Track Order</span>
+        </a></li>
+        <li><a href="#">
+			<i class="fas fa-database"></i>
+			<span class="nav-item">Report</span>
+		  </a></li>
+        <li><a href="#">
+          <i class="fas fa-comment"></i>
+          <span class="nav-item">Feed</span>
+        </a></li>
+
+        <li><a href="#" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Log out</span>
+        </a></li>
+      </ul>
+    </nav>
+
+
+    <section class="main">
+      <div class="main-top">
+        <h1>Order Updates</h1>
+        <i class="fas fa-user-cog"></i>
+      </div>
+      <div class="users">
+        <div class="card">
+          <img src="./images/icons8-shopping-cart-30.png">
+          <h2>21685</h2>
+          <p>Average Orders</p>
+        </div>
+        <div class="card">
+          <img src="./images/icons8-shipped-30.png">
+          <h2>21685</h2>
+          <p>Average Shipments</p>
+        </div>
+        <div class="card">
+          <img src="./images/icons8-return-purchase-50.png">
+          <h2>2054</h2>
+          <p>Average Return order</p>
+        </div>
+      </div>
+
+      <section class="attendance">
+        <div class="attendance-list">
+          <h1>Attendance List</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Product</th>
+                <th>Date</th>
+                <th>Order Time</th>
+                <th>Order Place Time</th>
+                <th>Bill Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01</td>
+                <td>Sahil</td>
+                <td>Jacket</td>
+                <td>11-24-22</td>
+                <td>8:00AM</td>
+                <td>3:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr class="active">
+                <td>02</td>
+                <td>Parth</td>
+                <td>Shirts</td>
+                <td>10-16-22</td>
+                <td>9:00AM</td>
+                <td>4:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>Keval</td>
+                <td>T-shirt</td>
+                <td>06-31-22</td>
+                <td>8:00AM</td>
+                <td>3:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>Vivek</td>
+                <td>Jenas</td>
+                <td>08-20-22</td>
+                <td>8:00AM</td>
+                <td>3:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr >
+                <td>05</td>
+                <td>Shivani</td>
+                <td>Tracksuit</td>
+                <td>07-15-22</td>
+                <td>9:00AM</td>
+                <td>4:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr >
+                <td>06</td>
+                <td>Foram</td>
+                <td>Formal clothes</td>
+                <td>03-24-22</td>
+                <td>9:00AM</td>
+                <td>4:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+
+</body>
+</html>
